@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: micronautguide
+---
+micronaut:
+  router:
+    static-resources:
+      assets:
+        paths: 'classpath:assets'
+        mapping: '/assets/**'
